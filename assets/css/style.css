@@ -1,4 +1,5 @@
 
+
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("../images/gravel.png");
@@ -6,6 +7,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 ul {
@@ -76,6 +81,21 @@ header .innerBanner {
 
 .summary {
     width: 100%;
+}
+
+.contactForm {
+    line-height: 1.25em;
+    padding-left: 10px;
+    padding-bottom: 1em;
+}
+
+.ContactInput {
+    width: 95%;
+    padding: 12px 20px;
+}
+
+.contactButton {
+    background-color: #4aaaa5;
 }
 
 /* Footer Style */
