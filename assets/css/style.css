@@ -1,4 +1,7 @@
-
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -7,6 +10,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.greenText {
+    color: #4aaaa5;
+    padding-left: 20px;
 }
 
 a {
