@@ -62,13 +62,14 @@ header .innerBanner {
 }
 
 .menuBox {
+    height:auto;
     float:right;
 }
 
 #menu {
     color: #777777;
     padding-top: 45px;
-    padding-bottom: 45px;
+    padding-bottom: 35px;
 }
 
 /* Body Styling */
@@ -78,6 +79,7 @@ header .innerBanner {
     overflow: auto;
     margin: 0 auto;
     margin-top: 130px;
+    margin-bottom: 130px;
     background: white;
 }
 
@@ -106,6 +108,30 @@ header .innerBanner {
     background-color: #4aaaa5;
 }
 
+.portfolioBox {
+    width: 250px;
+    height: auto;
+    overflow:auto;
+    float:left;
+    margin: 10px;
+}
+
+.portfolioLabel {
+    float:left;
+    background-color: #4aaaa5;
+    color: white;
+    width:100%;
+    position: relative;
+    bottom: 42px;
+    text-align: center;
+    line-height: 10%;
+}
+
+#porfolioContainer {
+    width: 75%;
+    height:auto;
+}
+
 /* Footer Style */
 
 .footerContainer {
@@ -123,5 +149,6 @@ header .innerBanner {
     color:white;
     position: absolute;
     bottom: 0px;
-    right: 45%;
+    width: 33%;
+    right: 33%;
 }
