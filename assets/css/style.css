@@ -33,22 +33,29 @@ li {
   margin-left:10px;
 }
 /* Header Styling. */
+/* 
+Pin Header to top, allow the height to be determined by the largest element (Name or Menu)
+Enforce White back ground.
+*/
+   
 header {
     position:fixed;
     width: 100%;
 	height: auto;
 	border-bottom: 2px solid #cccccc;
     background-color: #ffffff;
-    color: #ffffff;
     margin-bottom: 2em;
     top: 0px;
     left: 0px;
 }
 
+/* Limit banner to match the main section */
 header .innerBanner {
 	width: 960px;
     margin: 0 auto;
 }
+
+/* Format Name Box */
 .nameBox {
     display: inline-block;
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -58,22 +65,22 @@ header .innerBanner {
 	background-color: #4aaaa5;
 	color: #ffffff;
 	padding: 1em;
-    width: auto;
 }
 
+/* Position the menu container */
 .menuBox {
-    height:auto;
-    float:right;
+     float:right;
 }
 
+/* Position Menu within container, and colour */
 #menu {
     color: #777777;
     padding-top: 45px;
-    padding-bottom: 35px;
 }
 
-/* Body Styling */
+/*** Body Styling ***/
 
+/* Main Container for all pagesIncludes large bottom margin to avoid content being hidden behind footer */
 .mainContainer {
     width: 960px;
     overflow: auto;
@@ -83,31 +90,41 @@ header .innerBanner {
     background: white;
 }
 
+/** Styling for About me Page **/
+
+/* Contain Image, float left, and a little padding to stand off a little from the text */
 .imageContainer {
     width: 15%;
     float: left;
     padding: 1em;
 }
 
+/* Container to hold text. May be unesscary, but good for organization */
 .summary {
     width: 100%;
 }
 
+/** Styling for Contact form **/
+
+/* Typography for Form */
 .contactForm {
     line-height: 1.25em;
     padding-left: 10px;
     padding-bottom: 1em;
 }
 
+/* Format input elements*/
 .ContactInput {
     width: 95%;
     padding: 12px 20px;
 }
 
+/* format background of submit button */
 .contactButton {
     background-color: #4aaaa5;
 }
 
+/* Styling for Portfolio Box */
 .portfolioBox {
     width: 250px;
     height: auto;
@@ -132,8 +149,9 @@ header .innerBanner {
     height:auto;
 }
 
-/* Footer Style */
+/** Footer Style **/
 
+/* Fix Footer to bottom of browser window, */
 .footerContainer {
     width: 100%;
     background: #666666;
@@ -145,6 +163,7 @@ header .innerBanner {
     border-top: 10px solid #4aaaa5;
 }
 
+/* Text cented by having it take 33% of the room and starting 33% to the right. */
 #footerText {
     color:white;
     position: absolute;
